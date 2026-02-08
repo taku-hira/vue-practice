@@ -1,6 +1,7 @@
 <script setup lang="ts">
 
 import { ref, computed } from 'vue';
+import Reactive from './Reactive.vue';
 
 const name = ref("田中太郎");
 
@@ -47,4 +48,5 @@ setInterval(
 
   <p>半径{{ radius }}の円の面積は{{ area }}です。</p>
 
+  <Reactive />
 </template>
